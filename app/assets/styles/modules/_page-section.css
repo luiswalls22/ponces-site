@@ -1,0 +1,35 @@
+.page-section {
+	padding-bottom: 20px;
+	background-color: #000;
+
+	@mixin atMedium {
+	padding: 0;
+	}
+
+	&--no-b-padding-until-medium {
+		padding-bottom: 0;
+
+		@mixin atMedium {
+			padding-bottom: 0;
+		}
+	}
+
+	&--no-b-padding-until-large {
+		padding-bottom: 0;
+
+		@mixin atLarge {
+			padding-bottom: 0;
+		}
+	}
+
+	&--menus {
+		padding-bottom: 1.2rem;
+		background-color: #000;
+		color: #fff;
+	}
+
+	&--map {
+		background-color: #000;	
+	
+	}
+}

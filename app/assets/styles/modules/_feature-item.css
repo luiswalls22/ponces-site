@@ -1,0 +1,68 @@
+.feature-item {
+	position: relative;
+	padding-bottom: 0;
+
+	@mixin atSmall {
+		padding-left: 0px;
+	}
+
+	&__photo {
+		display: block;
+		margin: 2% 2% 0 0%;
+
+		@mixin atSmaller {
+			position: relative;
+			width: 48%;
+			float: left;
+		}
+
+
+		@mixin atSmall {
+			position: relative;
+			width: 48%;
+			float: left;
+		}
+
+		@mixin atMedium {
+			width: 23.5%;
+			float: left;
+		}
+
+		@mixin atLarge {
+			width: 23.5%;
+			float: left;
+		}
+	}
+
+	&__photo--last {
+		margin-right: 0;
+		float: left;
+	}
+
+	&__images {
+		padding-top: 30px;
+	}
+
+	&__title {
+		font-size: 1.6rem;
+		font-weight: 300;
+		width: 150px;
+		margin-top: .7em;
+		margin-bottom: .8rem;
+		text-align: center;
+		position: relative;
+
+		@mixin atSmall {
+			margin-top: 1em;
+			font-size: 1.875rem;
+			text-align: center;
+		}
+	}
+
+	&__test {
+
+		@mixin atLarge {
+			width: 100%;
+		}
+	}
+}
