@@ -1,7 +1,8 @@
 .site-footer {
+	font-family: 'Special Elite',cursive;
+	font-size: .75rem;
 	background-color: #000;
 	color: #fff;
-	padding: .5rem 0;
 	text-align: center;
 
 	&__icons {

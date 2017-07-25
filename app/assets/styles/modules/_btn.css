@@ -1,4 +1,6 @@
 .btn {
+	font-family: 'Rye', cursive;
+	font-weight: 100;
 	background-color: $mainRed;
 	color: #fff;
 	text-decoration: none;
@@ -14,3 +16,4 @@
 		}
 	}
 }
+

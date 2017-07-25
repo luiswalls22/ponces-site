@@ -16,3 +16,8 @@
 @import "modules/_site-footer";
 @import "modules/_site-header";
 @import "modules/_primary-nav";
+@import "modules/_menuplatform";
+@import "modules/_local-nav";
+@import "modules/_menu-large";
+@import "modules/_about-us";
+@import "modules/_social-media";

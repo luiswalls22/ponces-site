@@ -3,11 +3,11 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
-  <title>Ponce's Mexican Restaurant</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'><link href="https://fonts.googleapis.com/css?family=Average+Sans|Ewert|Rye|Sancreek" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
   <meta name="keywords" content="Mexican Food, Mexican Restaurant, Margaritas, Burritos, tacos">
   <meta name="description" content="El Rey De Kensignton">
-
+    <link rel="stylesheet" href="../css/social-circles.min.css">
   <link rel="stylesheet" href="temp/styles/styles.css">
 
 </head>
@@ -24,15 +24,13 @@
 
       <div class="site-header__menu-content">
         <div class="site-header__btn-container">
-          <a href="#" class="btn">Contactanos</a>
+          <a href="#" class="btn">Contact Us</a>
         </div>
          <nav class="primary-nav primary-nav--pull-right">
           <ul>
-            <li><a href="#que">Que</a></li>
-            <li><a href="#quien">Quien</a></li>
-            <li><a href="#cuando">Cuando</a></li>
-            <li><a href="#donde">Donde</a></li>
-            <li><a href="#porque">Porque</a></li>
+            <li><a href="#who">Our Team</a></li>
+            <li><a href="pages/menus.html">Menus</a></li>
+            <li><a href="#about-us">Our Mission</a></li>
           </ul>
         </nav>
       </div>
@@ -40,28 +38,30 @@
   </header>
 
   <div class="large-home">
-    
     <picture>
       <source srcset="assets/images/home--large.jpg 1920w" media="(min-width: 1380px)">
       <source srcset="assets/images/home--medium.jpg 1380w" media="(min-width: 990px)">
       <source srcset="assets/images/home--small.jpg 990w" media="(min-width: 640px)">
       <img srcset="assets/images/home--smaller.jpg 640w," alt="Front of the Restaurant" class="large-home__image">
-    </picture> 
-
+    </picture>
     <div class="large-home__text-content">
-      <div class="wrapper">
+      <div class="social-media">
+        <a class="icon-twitter social-button color social-media" href="http://twitter.com/username" target="_blank"></a>
+        <a class="icon-instagram social-button color social-media" href="http://instagram.com/poncesmxrestaurant
+" target="_blank"></a>
+        <a class="icon-facebook social-button color social-media social-media--last" href="http://facebook.com/PoncesRestaurant" target="_blank"></a>
         <!--<h1 class="large-home__title">El <strong>Rey</strong> de Kensignton</h1>-->
       </div>
     </div>
   </div>
 
-  <div id="features" class="page-section page-section--menus">
+  <div id="features" class="page-section page-section--featured">
     <div class="wrapper">
 
             <div class="feature-item">
               <picture>
-                <a href="#"><img class="feature-item feature-item__photo" srcset="assets/images/comida.jpg 480w," alt="Street Taco Plate">
-              </picture></a> 
+                <a href="pages/menus.html"><img class="feature-item feature-item__photo" srcset="assets/images/comida.jpg 480w," alt="Street Taco Plate">
+              </picture></a>
             </div>
 
             <div class="feature-item">
@@ -84,18 +84,42 @@
     </div>
   </div>
 
-  <div id="Map" class="page-section page-section--map">
-    <div class="wrapper wrapper--map">
-      <p class="map__subtitle">Location: <br> 4050 Adams Ave<br> San Diego California, 92116</p>
-      <iframe class="map map__google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.0864984619925!2d-117.11036798481824!3d32.76343928097601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9544957961ccf%3A0x63b5d596ed2ec389!2s4050+Adams+Ave%2C+San+Diego%2C+CA+92116!5e0!3m2!1sen!2sus!4v1493260421462"></iframe>
-    </div>
-  </div>
+  <div class="page-section page-section--about-us">
+    <div class="about-us">
+      <h1><a id="about-us">Our Mission</a></h1>
+        <p>The Meza family is not here just to make money. They are here to enrich the lives of all the people who walk through the doors here at Ponce's. This includes the employees - who are able to support their families, pay their rent, work their way through college, raise enough money to travel, buy a house, a car, pay for a wedding, or many other things we've yet to see; the guests - who are able to shed their stresses when they sit down to a comfortable, affordable meal at the end of a long work day, or to establish family traditions by gathering for a weekly meal, share a post-little league game lunch, host a holiday party, meet their mate and ask him or her to marry them, learn about new tequilas, get used to their new neighborhood, network at a business lunch, and so on; the organizations that we support, like AIDS walk, Dine Out for Life, Haiti Relief, Mid-City Little League, Churches, Schools, Girl Scouts, Boy Scouts, YMCA, Libraries, Musicians, Poets, Artists, and many more. It is through these filters that we view our success, and without excellent food, amazing service, a welcoming atmosphere, and fair pricing, we will not be able to accomplish our goals. We've done it for over forty five years, and we hope to continue to do so for many more.</p>
 
- <!-- <footer class="site-footer">
-    <div class=" wrapper">
-      <span class="site-footer__icons icon icon--instagram"></span>
+        <picture>
+          <img class="about-us--pic" srcset="assets/images/equipo1.jpg 500w," alt="Management Team">
+        </picture>
+
+        <div id="Map" class="page-section page-section--map">
+            <div class="wrapper wrapper--map">
+                <h1>Find Us</h1>
+              <div class="find-us">
+                <p class="map__subtitle">Location: <br> 4050 Adams Ave<br> San Diego California, 92116<br>(619) 282-4413</p>
+                <p class="horario">Monday - 11am - 9pm<br>
+                Tuesday through Thursday - 11am - 10pm<br>
+                Friday and Saturday - 10am - 10pm<br>
+                ~ Sunday - CLOSED ~</p>
+              </div>
+            <iframe class="map map__google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.0864984619925!2d-117.11036798481824!3d32.76343928097601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9544957961ccf%3A0x63b5d596ed2ec389!2s4050+Adams+Ave%2C+San+Diego%2C+CA+92116!5e0!3m2!1sen!2sus!4v1493260421462"></iframe>
+          </div>
+        </div>
+      </div>
     </div>
-  </footer> -->
+
+    <div class="generic-content-container--awards">
+    <h2>2017 Small Business of The Year Award</h2>
+    </div>
+ <footer class="site-footer">
+    <div class=" wrapper">
+
+
+      <p>Copyright Ponce's Mexican Restaurant 2017</p>
+
+    </div>
+  </footer>
   <script src="/temp/scripts/App.js"></script>
 </body>
 </html>

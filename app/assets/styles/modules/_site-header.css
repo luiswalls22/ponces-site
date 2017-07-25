@@ -27,7 +27,6 @@
 		transform-origin: 50% 0%;
 		background-color: $mainRed;
 		padding: 10px 15px;
-		text-indent: -9999px;
 
 		@mixin atMedium {
 			left: auto;

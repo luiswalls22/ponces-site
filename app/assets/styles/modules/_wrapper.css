@@ -37,4 +37,10 @@
 		max-width: 80%;
 		}
 	}
+
+	&--menus {
+		background-color: #f7eada;
+		width: 80%;
+		padding-bottom: 20px;
+	}
 }

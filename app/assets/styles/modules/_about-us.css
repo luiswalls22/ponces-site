@@ -1,0 +1,70 @@
+.about-us{
+      margin-left: 2%;
+      margin-right: 2%;
+      padding: 0 20px 20px 20px;
+      color: #fff;
+      text-align: center;
+
+  @mixin atMedium{
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+  h1 {
+      font-size: 1.5rem;
+      text-align: center;
+      background-color: $mainRed;
+      width: 100%;
+      padding-top: .5rem;
+
+      @mixin atMedium {
+    		font-size: 2.5rem;
+      }
+  }
+
+  p {
+      font-family: 'Special Elite', cursive;
+      font-size: .80rem;
+
+    @mixin atMedium {
+      font-weight: 100;
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  p.map__subtitle {
+    font-size: 1rem;
+    @mixin atMedium {
+      font-size: 1.5rem;
+      line-height: 1.75rem;
+    }
+  }
+
+  p.horario {
+    font-size: .85rem;
+    text-align: center;
+    @mixin atMedium {
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  a {
+    color: #fff;
+  }
+
+  @mixin atMedium{
+    width: 75%;
+    margin-right: 5%;
+    float: left;
+  }
+
+  &--pic{
+    display: block;
+    width: 100%;
+    @mixin atMedium{
+      margin-top: 1%;
+      margin-left: 0;
+    }
+  }
+}

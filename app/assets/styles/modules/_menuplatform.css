@@ -1,0 +1,59 @@
+.menuplatform {
+		text-align: center;
+
+	&__title {
+		font-family: 'Rye', cursive;
+		font-size: 1.3rem;
+		font-weight: 300;
+		color: #cf770d;
+		text-transform: uppercase;
+		padding-top: 30px;
+
+		@mixin atMedium {
+			font-size: 2rem;
+			padding-top: 1.5rem;
+		}
+	}
+
+	&__title-red {
+		color: $otherRed;
+	}
+
+	&__title-blue {
+		color: $mainBlue;
+	}
+
+	&__item {
+		font-family: 'Sancreek', cursive;
+		color: #668a64;
+		font-size: 1rem;
+		font-weight: 100;
+		text-transform: uppercase;
+		padding-top: 15px;
+		padding-bottom: 5px;
+
+			@mixin atMedium {
+			font-size: 1.3rem;
+		}
+	}
+
+	&__description {
+		font-family: 'Average Sans', sans-serif;
+		color: #000;
+		font-size: .9rem;
+		font-weight: 100;
+
+			@mixin atMedium {
+			font-size: 1.1rem;
+		}
+	}
+
+		&__tacos {
+		font-family: 'Average Sans', sans-serif;
+		color: #000;
+		font-size: 1rem;
+		font-weight: 200;
+		padding-top: 3px;
+
+	}
+}

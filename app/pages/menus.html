@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'><link href="https://fonts.googleapis.com/css?family=Average+Sans|Ewert|Rye|Sancreek" rel="stylesheet">
+  <title>Ponce's Mexican Restaurant</title>
+  <meta name="keywords" content="Mexican Food, Mexican Restaurant, Margaritas, Burritos, tacos">
+  <meta name="description" content="El Rey De Kensignton">
+
+  <link rel="stylesheet" href="../temp/styles/styles.css">
+  <link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type='text/javascript'>
+  $(document).ready(function(){
+      $(window).scroll(function(){
+          if ($(this).scrollTop() > 100) {
+              $('#scroll').fadeIn();
+          } else {
+              $('#scroll').fadeOut();
+          }
+      });
+      $('#scroll').click(function(){
+          $("html, body").animate({ scrollTop: 0 }, 600);
+          return false;
+      });
+  });
+  </script>
+  <style type="text/css">
+  /* BackToTop button css */
+  #scroll {
+      position:fixed;
+      right:10px;
+      bottom:10px;
+      cursor:pointer;
+      width:50px;
+      height:50px;
+      background-color:#3498db;
+      text-indent:-9999px;
+      display:none;
+      -webkit-border-radius:60px;
+      -moz-border-radius:60px;
+      border-radius:60px
+  }
+  #scroll span {
+      position:absolute;
+      top:50%;
+      left:50%;
+      margin-left:-8px;
+      margin-top:-12px;
+      height:0;
+      width:0;
+      border:8px solid transparent;
+      border-bottom-color:#ffffff
+  }
+  #scroll:hover {
+      background-color:#e74c3c;
+      opacity:1;filter:"alpha(opacity=100)";
+      -ms-filter:"alpha(opacity=100)";
+  }
+  </style>
+
+
+</head>
+<body>
+
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="site-header__logo"><a href="../index.html">
+        <div class="site-header__logo__graphic icon icon--ponceslogo">Ponce's Mexican Restaurant</div></a>
+      </div>
+
+      <div class="site-header__menu-icon">
+        <div class="site-header__menu-icon__middle"></div>
+      </div>
+
+        <div class="site-header__menu-content">
+          <div class="site-header__btn-container">
+            <a href="#" class="btn">Contact Us</a>
+        </div>
+
+         <nav class="primary-nav primary-nav--pull-right">
+          <ul>
+            <li><a href="#who">Our Team</a></li>
+            <li><a href="#">Menus</a></li>
+            <li><a href="../index.html#about-us">Our Mission</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="large-home">
+
+    <picture>
+      <source srcset="../assets/images/room2--large.jpg 1920w" media="(min-width: 1380px)">
+      <source srcset="../assets/images/room2--medium.jpg 1380w" media="(min-width: 990px)">
+      <source srcset="../assets/images/room2--small.jpg 990w" media="(min-width: 640px)">
+      <img srcset="../assets/images/room2--smaller.jpg 640w," alt="Front of the Restaurant" class="large-home__image">
+    </picture>
+
+    <div class="large-home__text-content">
+      <div class="wrapper">
+        <!--<h1 class="large-home__title">El <strong>Rey</strong> de Kensignton</h1>-->
+      </div>
+    </div>
+  </div>
+
+  <div id="features" class="page-section page-section--menus">
+    <nav class="local-nav">
+          <ul>
+            <li><a href="#appetizers">| Appetizers |</a></li>
+            <li><a href="#soups">| Soups & Salads |</a></li>
+            <li><a href="#combinations">| Combination Plates |</a></li>
+            <li><a href="#house">| House Specialties |</a></li>
+            <li><a href="#mst">| Mini Street Tacos |</a></li>
+            <li><a href="#fajitas">| Fajitas |</a></li>
+            <li><a href="#desayuno">| Desayuno |</a></li>
+            <li><a href="#tacos">| Specialty Tacos |</a></li>
+            <li><a href="#tostadas">| Specialty Tostadas |</a></li>
+            <li><a href="#tortas">| Tortas |</a></li>
+            <li><a href="#specialty burritos">| Specialty Burritos |</a></li>
+            <li><a href="#las otras">| Las Otras |</a></li>
+          </ul>
+        </nav>
+    <div class="wrapper wrapper--menus">
+      <div class"page-section page-section--menus">
+
+        <div class="menu-large">
+
+            <!-- BEGIN APPETIZERS -->
+            <div class="menuplatform menuplatform__title"><a id="appetizers">Appetizers</a></div>
+            <div class="menuplatform menuplatform__item">Guacamole Dip</div>
+            <div class="menuplatform menuplatform__description">small $5.50 large $7.95</div>
+            <div class="menuplatform menuplatform__item">Salsa Fresca</div>
+            <div class="menuplatform menuplatform__description">small $1.95 large $2.95</div>
+
+            <div class="menuplatform menuplatform__item">Nachos $8.95</div>
+            <div class="menuplatform menuplatform__description">Topped with cheddar cheese,guacamole & sour cream
+            <br><em>Add Ground Beef, Shredded Beef or Chicken $ 1 .50
+            <br>Add Adobada, Carnitas, Carne Asada or Pollo Asado $2.50 </em></div>
+            <div class="menuplatform menuplatform__item">Quesadilla $3.95</div>
+            <div class="menuplatform menuplatform__description">With cheddar or monterey jack cheese</div>
+            <div class="menuplatform menuplatform__item">Crispy Quesadilla $4.95</div>
+            <div class="menuplatform menuplatform__description">A fried 1 0"flour tortilla topped with your choice
+            <br>of melted cheddar or monterey jack cheese</div>
+            <div class="menuplatform menuplatform__item">Quesadilla Suprema</div>
+            <div class="menuplatform menuplatform__description"><em>Ponce's version of a "Mexican Pizza"</em>
+            <br>Our crispy quesadilla topped with a layer
+            <br>of your choice of meat, a layer of cheese and
+            <br>finished with guacamole & sour cream
+            <br><em>Ground Beef, Shredded Beef or Chicken $8.95
+            <br>Adobada, Carnitas, Carne Asada or PolloAsado</em> $11.95</div>
+            <div class="menuplatform menuplatform__item">Chile Con Queso $4.95</div>
+            <div class="menuplatform menuplatform__description">Creamy cheese dip with onions and chile</div>
+
+          </div>
+          <div class="menu-large__right">
+
+            <div class="menuplatform menuplatform__item">Carne Asada Fries $ 10.95</div>
+            <div class="menuplatform menuplatform__description">Crispy french fries topped with carne asada,
+            <br>melted cheddar cheese, guacamole, and sour cream</div>
+
+
+
+            <div class="menuplatform menuplatform__title"><a id="soups" class="menuplatform__title-red">SOUPS & SALADS</a></div>
+            <div class="menuplatform menuplatform__item">Albondigas Soup {Meat Ball Soup}</div>
+            <div class="menuplatform menuplatform__description">cup $3.50 bowl $5.95</div>
+            <div class="menuplatform menuplatform__item">Chicken Tortilla Soup</div>
+            <div class="menuplatform menuplatform__description">bowl $6.45</div>
+            <div class="menuplatform menuplatform__item">Side Salad $4.25</div>
+            <div class="menuplatform menuplatform__description">Shredded iceburg or romaine lettuce, sliced tomatoes
+            <br>and queso anejo with your choice of dressing
+            <br><em>Add Guacamole $1.25
+            <br>Add Avocado $1.50</em></div>
+            <div class="menuplatform menuplatform__item">Ensalada Suprema</div>
+            <div class="menuplatform menuplatform__description">small $5.95 large $8.75
+            <br>Romaine lettuce, bell peppers, crispy tortilla strips, pinto beans, tomato, avocado, cotija cheese, and your choice of dressing
+            <br><em>Add Chicken or Steak small $1.95 large $2.95</em></div>
+            <div class="menuplatform menuplatform__item">Shrimp Ceviche $9.95</div>
+            <div class="menuplatform menuplatform__description">Shrimp marinated in fresh lime juice and mixed with<br>onions, tomatoes, cucumbers, serrano chile & cilantro. <br>Served with mini tostadas and avocados.</div>
+            <!-- END APPETIZERS -->
+
+        </div>
+            <!-- BEGIN COMBINATION PLATES -->
+        <div class="menu-large__combo-title">
+            <div class="menuplatform menuplatform__title"><a id="combinations" class="menuplatform__title-blue">Combination Plates</a></div>
+            <div class="menuplatform menuplatform__description">Choose from 2 or 3 of the items below to create your own combo plate.<br>
+            Served with rice and beans. No split plates please.<br>
+            Two Items $12.50 Three Items $14.95</div>
+        </div>
+        <div class="menu-large__combo-items">
+            <div class="menu-large__combo">
+              <div class="menuplatform menuplatform__item">ENCHILADAS</div>
+              <div class="menuplatform menuplatform__description">Cheese<br>Chicken<br>Ground Beef<br>Gaucamole<br>Shredded Beef<br>Ala Carte $4.75</div>
+            </div>
+            <div class="menu-large__combo">
+              <div class="menuplatform menuplatform__item">BURRITOS</div>
+              <div class="menuplatform menuplatform__description">Bean<br>Chicken<br>Ground Beef<br>Shredded Beef<br>Ala Carte $5.95</div>
+            </div>
+            <div class="menu-large__combo">
+              <div class="menuplatform menuplatform__item">TACOS</div>
+              <div class="menuplatform menuplatform__description">Bean<br>Chicken<br>Ground Beef<br>Gaucamole<br>Shredded Beef<br>Ala Carte $3.95</div>
+            </div>
+            <div class="menu-large__combo">
+              <div class="menuplatform menuplatform__item">SPECIALTY TACOS</div>
+              <div class="menuplatform menuplatform__description">ADD $ 1.95 PER TACO<br>Carne Asada<br>Carnitas<br>Pollo Asado<br>Adobada<br>Camaron<br>Fish<br>Ala Carte $5.95</div>
+            </div>
+            <div class="menu-large__combo">
+              <div class="menuplatform menuplatform__item">TOSTADAS</div>
+              <div class="menuplatform menuplatform__description">Bean<br>Chicken<br>Ground Beef<br>Gaucamole<br>Shredded Beef<br>Ala Carte $4.25</div>
+            </div>
+            <div class="menu-large__combo">
+              <div class="menuplatform menuplatform__item">OTRAS</div>
+              <div class="menuplatform menuplatform__description">Beef Tamale<br>Chicken Tamale<br>Chile Relleno<br>Ala Carte $5.25</div>
+            </div>
+          <!-- END COMBINATION PLATES -->
+        </div>
+          <!-- BEGIN HOUSE SPECIALTIES -->
+
+        <div class="menu-large">
+          <div class="menuplatform menuplatform__title"><a id="house">House Specialties</a></div>
+          <div class="menuplatform menuplatform__item">CHICKEN ENCHILADAS</div>
+          <div class="menuplatform menuplatform__description">Two chicken enchiladas topped with avocado slices and sour cream
+          Served with rice and beans $12.95</div>
+          <div class="menuplatform menuplatform__item">CHIMICHANGA</div>
+          <div class="menuplatform menuplatform__description">Golden fried burrito (Choice of Shredded Beef, Ground Beef or Chicken)
+          Served with guacamole, sour cream, rice and beans $12.95</div>
+          <div class="menuplatform menuplatform__item">TAMPIQUENA</div>
+          <div class="menuplatform menuplatform__description">6 oz. top sirloin steak and a manchego cheese enchilada ranchera
+          Served with guacamole,sour cream, rice and beans $15.95</div>
+          <div class="menuplatform menuplatform__item">CAMARONES RANCHEROS</div>
+          <div class="menuplatform menuplatform__description">Sauteed shrimp in a spicy ranchero sauce
+          Served with rice and beans - choice of corn or flour tortillas $16.95</div>
+          <div class="menuplatform menuplatform__item">CAMARON ES AL MOJO DE AJO</div>
+          <div class="menuplatform menuplatform__description">Sauteed shrimp in a garlic butter sauce, served with
+          guacamole, rice and beans - choice of corn or flour tortillas $16.95</div>
+          <div class="menuplatform menuplatform__item">CAMARONES ALA DIABLA</div>
+          <div class="menuplatform menuplatform__description">Sauteed shrimp in a spicy chile sauce, served with guacamole,
+          sour cream, salsa fresca, rice and beans - choice of corn or flour tortillas $16.95</div>
+
+        </div>
+        <div class="menu-large__right">
+          <div class="menuplatform menuplatform__item">FLAUTAS</div>
+          <div class="menuplatform menuplatform__description">Three rolled taquitos made with flour tortillas (Choice of Shredded Chicken or Beef)
+          Served with guacamole, sour cream, rice and beans $12.95</div>
+          <div class="menuplatform menuplatform__item">CARNE ASADA</div>
+          <div class="menuplatform menuplatform__description">8 oz. thinly sliced top sirloin served with rice, beans,
+          and guacamole - choice of corn or flour tortillas $14.95</div>
+          <div class="menuplatform menuplatform__item">CHILE COLORADO</div>
+          <div class="menuplatform menuplatform__description">Tender beef, stewed with guajillo chiles, onion, and garlic, topped with
+          fresh avocado, and served with rice and beans - choice of corn or flour tortillas $14.95</div>
+          <div class="menuplatform menuplatform__item">CHILE VERDE</div>
+          <div class="menuplatform menuplatform__description">Slow cooked pork stewed in tomatillo sauce
+          Served with rice and beans - choice of corn or flour tortillas $14.95</div>
+          <div class="menuplatform menuplatform__item">CARNITAS</div>
+          <div class="menuplatform menuplatform__description">Mexican pulled pork, served with guacamole, sour cream, salsa fresca,
+          rice, and beans - choice of corn or flour tortillas $14.95</div>
+          <div class="menuplatform menuplatform__item">SOPES DE CHORIZO</div>
+          <div class="menuplatform menuplatform__description">Three chorizo and corn sopes topped with nopales salsa
+          and queso fresco. Served with rice and beans. $14.95</div>
+          <div class="menuplatform menuplatform__item">ENCHILADAS SUIZAS</div>
+          <div class="menuplatform menuplatform__description">Two enchiladas stuffed with chicken and manchego cheese,
+          topped with creamy tomatillo salsa and Mexican crema. Served with rice and beans $13.95</div>
+        </div>
+          <!-- END HOUSE SPECIALTIES -->
+
+          <!-- BEGIN STREET TACOS -->
+        <div class="menu-large__combo-title">
+          <div class="menuplatform menuplatform__title"><a id="mst" class="menuplatform__title-red">Mini Street Tacos</a></div>
+          <div class="menuplatform menuplatform__description">Served with fresh cilantro, chopped onions,
+          and avocado salsa, unless otherwise specified
+          Choice of 3 served with rice and beans $ 11.95<br>
+          <div class="menuplatform menuplatform__tacos">Carnitas<br></div>
+          <div class="menuplatform menuplatform__tacos">Al Pastor<br></div>
+          with chopped pineapple<br>
+          <div class="menuplatform menuplatform__tacos">Camaron<br></div>
+          topped only with a spicy
+          chipotle cabbage slaw<br>
+          <div class="menuplatform menuplatform__tacos">Pollo Asado<br></div>
+          <div class="menuplatform menuplatform__tacos">Carne Asada<br></div>
+          <div class="menuplatform menuplatform__tacos">Vegetarian<br></div>
+          seasoned potatoes with
+          bell pepper, mushroom,
+          squash, corn & onion<br>
+          Ala Carte $2.75</div>
+        </div>
+          <!-- END STREET TACOS -->
+
+          <!-- BEGIN FAJITAS -->
+          <div class="menuplatform menuplatform__title"><a id="fajitas" class="menuplatform__title-blue">Fajitas</a></div>
+          <div class="menuplatform menuplatform__item">STEAK OR CHICKEN FAJITAS $14.95</div>
+          <div class="menuplatform menuplatform__description">Steak or chicken mixed with bell peppers and onions.
+          Served with guacamole, sour cream, salsa fresca, rice
+          and beans - choice of corn or flour tortillas
+          For Shrimp Fajitas add $2.25</div>
+          <div class="menuplatform menuplatform__item">VEGETARIAN FAJITAS $14.95</div>
+          <div class="menuplatform menuplatform__description">Mushrooms, corn, squash, potatoes, bell peppers, and onions,
+          grilled and served with vegetarian rice, whole pinto beans,
+          avocado and salsa fresca - choice of corn or flour tortillas</div>
+          <div class="menuplatform menuplatform__item">FAJITAS QUESADILLA $12.95</div>
+          <div class="menuplatform menuplatform__description">Steak or chicken fajitas melted between two
+          10" flour tortillas with monterey jack cheese.
+          Served with guacamole, salsa fresca, and sour cream.
+          (Please allow an additional 5 minutes for preparation)</div>
+          <!-- END FAJITAS -->
+
+          <!-- BEGIN DESAYUNO -->
+          <div class="menuplatform menuplatform__title"><a id="desayuno">Desayuno</a></div>
+          <div class="menuplatform menuplatform__description">$9.95</div>
+          <div class="menuplatform menuplatform__item">CHORIZO CON HUEVO</div>
+          <div class="menuplatform menuplatform__description">Mexican sausage scrambled with eggs.
+          Served with rice and beans - choice of corn or flour tortillas</div>
+
+        <div class="menu-large__right">
+          <div class="menuplatform menuplatform__item">HUEVOS RANCHEROS</div>
+          <div class="menuplatform menuplatform__description">Fried eggs on a corn tortilla covered with ranchero sauce.
+          Served with rice and beans - choice of corn or flour tortillas</div>
+          <div class="menuplatform menuplatform__item">MACHACA CON HUEVO</div>
+          <div class="menuplatform menuplatform__description">Shredded beef scrambled with eggs, tomatoes and onions.
+          Served with rice and beans - choice of corn or flour tortillas</div>
+          <div class="menuplatform menuplatform__item">CHILAQUILES VERDES</div>
+          <div class="menuplatform menuplatform__description">Tortilla strips, scrambled with eggs and mixed with
+          our spicy salsa verde, topped with onions, queso anejo,
+          and sour cream. Served with rice and beans.</div>
+          <!-- END DESAYUNO -->
+
+          <!-- BEGIN SPECIALTY TACOS -->
+          <div class="menuplatform menuplatform__title"><a id="tacos" class="menuplatform__title-red">SPECIALTY TACOS</a></div>
+          <div class="menuplatform menuplatform__item">CARNE ASADA OR POLLO ASADO $5.95</div>
+          <div class="menuplatform menuplatform__description">Your choice, sauteed with onions and topped with salsa fresca, guacamole and queso anejo</div>
+          <div class="menuplatform menuplatform__item">CARNITAS $5.95</div>
+          <div class="menuplatform menuplatform__description">Mexican pulled pork topped with cilantro,
+          onions and avocado salsa</div>
+          <div class="menuplatform menuplatform__item">AL PASTOR $5.95</div>
+          <div class="menuplatform menuplatform__description">Chile guajillo seasoned pork topped with cilantro, onions, pineapple and avocado salsa</div>
+          <div class="menuplatform menuplatform__item">SHRIMP $5.95</div>
+          <div class="menuplatform menuplatform__description">Grilled shrimp topped with avocado, salsa fresca, and chipotle slaw</div>
+          <div class="menuplatform menuplatform__item">FISH $5.95</div>
+          <div class="menuplatform menuplatform__description">Cod, grilled or fried golden and topped with cabbage, tangy salsa blanca,and salsa fresca</div>
+          <div class="menuplatform menuplatform__item">THREE ROLLED TACOS $5.95</div>
+          <div class="menuplatform menuplatform__description">Shredded beef, chicken, or potato
+          topped with lettuce and queso anejo
+          <em>Add guacamole $1.00
+          <br>Add sour cream $1.00</em></div>
+          <!-- END SPECIALTY TACOS -->
+        </div>
+        <!-- BEGIN SPECIALTY TOSTADAS -->
+        <div class="menuplatform menuplatform__title"><a id="tostadas" class="menuplatform__title-blue">SPECIALTY TOSTADAS</a></div>
+        <div class="menuplatform menuplatform__item">PONCE'S SPECIAL $11.95</div>
+        <div class="menuplatform menuplatform__description"><em>{Our version of a "Taco Salad"}</em><br>
+        Crispy flour tortilla topped with beans,
+        ground beef, lettuce, tomato, sour cream,
+        cotija cheese & avocado slices</div>
+        <div class="menuplatform menuplatform__item">SUPREMA $7.95</div>
+        <div class="menuplatform menuplatform__description">Crispy corn tortilla topped with beans,
+        lettuce, tomato, sour cream,
+        cheddar cheese and guacamole
+        <br><em>Choice of Ground Beef, Chicken or Shredded Beef</em></div>
+        <div class="menuplatform menuplatform__item">COMBINATION $6.95</div>
+        <div class="menuplatform menuplatform__description">Our bean tostada topped with lettuce,
+        tomato & cheese
+        <br><em>Choice of Ground Beef, Chicken or Shredded Beef</em></div>
+        <!-- END SPECIALTY TOSTADAS -->
+
+        <!-- BEGIN TORTAS -->
+        <div class="menuplatform menuplatform__title"><a id="tortas">TORTAS</a></div>
+        <div class="menuplatform menuplatform__description">Sandwich on a toasted Mexican roll
+        Served with mayonnaise, lettuce, tomato & guacamole
+        $8.95</div>
+        <div class="menuplatform menuplatform__tacos">Adobada</div>
+        <div class="menuplatform menuplatform__tacos">Carne Asada</div>
+        <div class="menuplatform menuplatform__tacos">Carnitas</div>
+        <div class="menuplatform menuplatform__tacos">Chorizo</div>
+        <div class="menuplatform menuplatform__tacos">Bacon + Egg</div>
+        <div class="menuplatform menuplatform__tacos">Machaca</div>
+        <div class="menuplatform menuplatform__tacos">Pollo Asado</div>
+        <!-- END TORTAS -->
+
+        <!-- BEGIN SPECIALTY BURRITOS -->
+        <div class="menuplatform menuplatform__title"><a id="specialty burritos" class="menuplatform__title-red">Specialty Burritos</div>
+        <div class="menuplatform menuplatform__item">COMBINATION $6.95 </div>
+        <div class="menuplatform menuplatform__description">
+        Our bean burrito stuffed with any of the items below
+        Served wet with our enchilada sauce <br><em>Ground Beef, Chicken or Shredded Beef</em></div>
+        <div class="menuplatform menuplatform__item">CARNE ASADA OR POLLO ASADO  $8.95 </div>
+        <div class="menuplatform menuplatform__description">
+        Your choice,sauteed with onions,and wrapped in a
+        warm flour tortilla with guacamole and salsa fresca</div>
+        <div class="menuplatform menuplatform__item">CALIFORNIA $9.95 </div>
+        <div class="menuplatform menuplatform__description">
+        Carne asada, crispy french fries, cheddar cheese, guacamole,
+        sour cream, and salsa fresca, wrapped in a warm flour tortilla</div>
+        <div class="menuplatform menuplatform__item">CHILEVERDE $8.95 </div>
+        <div class="menuplatform menuplatform__description">
+        Tender cubes of pork cooked in our own tomatillo sauce.
+        Wrapped in a warm flour tortilla, and served
+        wet with our tomatillo sauce</div>
+        <div class="menuplatform menuplatform__item">CHORIZO $8.95 </div>
+        <div class="menuplatform menuplatform__description">
+        Mexican sausage scrambled with eggs,
+        then served in a warm flour tortilla</div>
+        <div class="menuplatform menuplatform__item">MACHACA 8.95 </div>
+        <div class="menuplatform menuplatform__description">
+        Shredded beef, scrambled with eggs,onions and tomatoes
+        Wrapped in a warm flour tortilla</div>
+        <div class="menuplatform menuplatform__item">SHRIMP "Ranchera" $10.95 </div>
+        <div class="menuplatform menuplatform__description">
+        Shrimp cooked in our spicy ranchero sauce, cabbage and rice all wrapped in a warm flour tortilla. Served wet with our ranchero sauce</div>
+        <div class="menuplatform menuplatform__item">"Baja" SHRIMP $10.95 </div>
+        <div class="menuplatform menuplatform__description">
+        Grilled shrimp, fresh avocado,chipotle slaw, and salsa fresca
+        wrapped in a warm flour tortilla</div>
+        <div class="menuplatform menuplatform__item">FISH $9.95 </div>
+        <div class="menuplatform menuplatform__description">
+        Fried cod, spicy salsa blanca slaw, and fresh avocado,
+        wrapped in a warm flour tortilla</div>
+        <div class="menuplatform menuplatform__item">SURF + TURF $10.95 </div>
+        <div class="menuplatform menuplatform__description">
+        Carne asada, grilled shrimp, fresh avocado, spicy tomatillo sauce,jack cheese, cabbage, and chipotle salsa, wrapped in a warm flour tortilla</div>
+        <div class="menuplatform menuplatform__item">SUPREMA $8.95 </div>
+        <div class="menuplatform menuplatform__description">
+        Beans, rice, monterey jack cheese, guacamole, sour cream,
+        salsa fresca and lettuce all wrapped in a warm flour tortilla
+        (available vegetarian)</div>
+        <div class="menuplatform menuplatform__item">AL PASTOR $8.95 </div>
+        <div class="menuplatform menuplatform__description">
+        Chile guajillo seasoned pork grilled and wrapped in a warm flour tortilla with guacamole and pineapple salsa fresca</div>
+        <div class="menuplatform menuplatform__item">CARNITAS $8.95 </div>
+        <div class="menuplatform menuplatform__description">
+        Mexican pulled pork wrapped in a warm flour tortilla
+        with guacamole and salsa fresca</div>
+        <div class="menuplatform menuplatform__item">BREAKFAST BURRITO $8.95</div>
+        <div class="menuplatform menuplatform__description">
+        Diced bacon,grilled potatoes,scrambled eggs,and
+        monterey jack cheese, wrapped in a warm flour tortilla</div>
+        <!-- END SPECIALTY BURRITOS -->
+
+        <!-- BEGIN LAS OTRAS -->
+        <div class="menuplatform menuplatform__title"><a id="las otras" class="menuplatform__title-blue">LAS OTRAS</a></div>
+        <div class="menuplatform menuplatform__item">Hamburger $3.95</div>
+        <div class="menuplatform menuplatform__description">Served with lettuce, tomato,
+        sweet relish, mustard, and mayo
+        With Cheese $4.75</div>
+        <div class="menuplatform menuplatform__item">Chile Relleno Burger</div>
+        <div class="menuplatform menuplatform__description"><em>Guero Style</em> $7.95<br>
+        Our hamburger with a Chile Relleno<br>
+        <br><em>Mexi Style</em> $10.95<br>
+        Our hamburger steak served on a Mexican roll with a Chile Relleno, mayo, lettuce, tomato & guacamole</div>
+        <div class="menuplatform menuplatform__item">French Fries $2.45</div>
+        <!-- END LAS OTRAS -->
+
+      </div>
+    </div>
+  </div>
+ <!-- <footer class="site-footer">
+    <div class=" wrapper">
+      <span class="site-footer__icons icon icon--instagram"></span>
+    </div>
+  </footer> -->
+
+  <script src="/temp/scripts/App.js"></script>
+  <a href="#0" class="cd-top">Top</a>
+</body>
+</html>

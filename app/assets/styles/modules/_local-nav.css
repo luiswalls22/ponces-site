@@ -1,0 +1,33 @@
+.local-nav {
+	font-family: 'Average Sans', sans-serif;
+	padding: 10px;
+	background-color: $mainBlue;
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		@mixin clearfix;
+	}
+
+	li {
+		list-style: none;
+		display: inline-block;
+		padding-right: 3px;
+		padding-bottom: 3px;
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		display: block;
+		font-size: 1rem;
+
+		@mixin atMedium {
+			font-size: 1.2rem;
+			font-weight: 100;
+		}
+	}
+}

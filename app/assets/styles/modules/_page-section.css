@@ -22,14 +22,49 @@
 		}
 	}
 
-	&--menus {
+	&--featured {
 		padding-bottom: 1.2rem;
 		background-color: #000;
 		color: #fff;
+
+		@mixin atMedium {
+			height: auto;
+			padding-bottom: 3%;
+		}
 	}
 
+	&--about-us{
+		background-color: #000;
+		padding-top: .2rem;
+		padding-bottom: 0;
+
+		h1{
+			font-family: 'Special Elite', cursive;
+		}
+
+			@mixin atMedium{
+				padding-top: 2rem;
+				padding-bottom: 2rem;
+				overflow: hidden;
+			}
+	}
 	&--map {
-		background-color: #000;	
-	
+		background-color: #000;
+		padding-top: 2rem;
+
+		.find-us {
+			@mixin atMedium{
+			width: 50%;
+			float: left;
+			}
+		}
+
+		@mixin atMedium {
+		}
+
+	}
+
+	&--menus {
+		background-color: $mainGreen;
 	}
 }

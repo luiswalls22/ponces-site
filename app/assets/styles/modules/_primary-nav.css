@@ -1,6 +1,7 @@
 .primary-nav {
 	padding-top: 10px;
 
+
 	@mixin atMedium {
 		padding-top: 0;
 	}
@@ -46,4 +47,4 @@
 			background-color: transparent;
 		}
 	}
-} 
+}

@@ -1,0 +1,40 @@
+.menu-large {
+/*
+	@mixin atMedium {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		float: left;
+		width: 50%;
+	}
+	@mixin clearfix;
+
+	&__right {
+		@mixin clearfix;
+		@mixin atMedium {
+			width: 50%;
+			float: right;
+		}
+
+	}
+
+	&__combo-title {
+			width: 70%;
+			@mixin atMedium {
+			margin-top: 30px;
+			}
+		}
+
+	&__combo-items {
+		width: 60%;
+
+		@mixin clearfix;
+	}
+
+	&__combo {
+
+		@mixin atMedium {
+			width: 15%;
+			float: left;
+		}
+	}*/
+}
