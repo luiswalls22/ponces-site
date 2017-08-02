@@ -1,0 +1,26 @@
+.equipo {
+  &--images {
+    display: block;
+    width: 80%;
+    padding-top: 20px;
+    margin-right: 10%;;
+    margin-left: 10%;
+
+    &-ponce {
+      padding-top: 40px;
+    }
+
+    @mixin atMedium {
+      width: 20%;
+      margin-right: 0;
+      margin-left: 0;
+
+    }
+  }
+
+  &--bios {
+    @mixin atMedium {
+    }
+  }
+
+}

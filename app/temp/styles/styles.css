@@ -714,6 +714,37 @@ a {
   background-color: #7d7b62;
 }
 
+.page-section-equipo {
+  font-family: 'Special Elite',cursive;
+  background-color: #282828;
+  color: #fff;
+  text-align: center;
+}
+
+.page-section-equipo h1 {
+  font-size: 1.75rem;
+  line-height: .5rem;
+  margin-bottom: 0;
+}
+
+.page-section-equipo h2 {
+  font-size: 1rem;
+  line-height: .5rem;
+  margin-top: 1px;
+}
+
+.page-section-equipo p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.page-section-equipo hr {
+  width: 90%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-color: #732e1f;
+}
+
 .headline {
 	font-size: 1.9rem;
 	font-weight: 300;
@@ -1733,3 +1764,26 @@ Instead edit gulp/templates/sprite */
 .social-media a.social-media--last {
   margin-bottom: 0;
 }
+
+.equipo--images {
+  display: block;
+  width: 80%;
+  padding-top: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.equipo--images-ponce {
+  padding-top: 40px;
+}
+
+@media (min-width: 800px) {
+
+  .equipo--images {
+    width: 20%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 800px) {}
