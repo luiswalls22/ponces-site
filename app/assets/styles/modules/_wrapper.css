@@ -43,4 +43,9 @@
 		width: 80%;
 		padding-bottom: 20px;
 	}
+
+	&--bebidas {
+		background-color: #282828;
+		width: 80%;
+	}
 }

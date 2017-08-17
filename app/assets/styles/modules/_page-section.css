@@ -68,16 +68,66 @@
 		background-color: $mainGreen;
 	}
 
+	&--bebidas {
+		background-color: #000;
+		text-align: center;
+
+		p.disc {
+			font-size: .7rem;
+			color: #fff;
+			display: inline;
+
+			@mixin atMedium {
+				font-size: 1rem;
+			}
+
+		}
+
+		p.star {
+			font-size: .7rem;
+			color: $mainRed;
+			display: inline;
+		}
+
+		ul.beer {
+			font-size: 1rem;
+			color: #fff;
+			list-style: none;
+		}
+
+		ul.beer li {
+			font-size: .7rem;
+			width: 75%;
+			margin-left: 0%;
+
+			@mixin atMedium {
+			font-size: .9rem;
+			width: 20%;
+			margin-left: 38%;
+		}
+		}
+
+		li p {
+			font-size: 1rem;
+		}
+	}
+
 	&-equipo {
 		font-family: 'Special Elite',cursive;
 		background-color: #282828;
 		color: #fff;
 		text-align: center;
+		padding-bottom: 30px;
+
+		@mixin atMedium {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 
 		h1 {
-			font-size: 1.75rem;
+			font-size: 2rem;
 			line-height: .5rem;
-			margin-bottom: 0;
+			margin-bottom: 10px;
 		}
 
 		h2 {
@@ -96,6 +146,11 @@
 			margin-bottom: 20px;
 			margin-top: 20px;
 			border-color: $mainRed;
+
+			@mixin atMedium {
+			width: 80%;
+		}
+
 		}
 	}
 }

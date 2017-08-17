@@ -6,6 +6,11 @@
 	width: 80%;
 	margin-left: 10%;
 
+	&--bebidas {
+		background-color: #1f1f1f;
+
+	}
+
 	ul {
 		margin: 0;
 		padding: 0;
